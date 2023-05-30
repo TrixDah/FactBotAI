@@ -31,6 +31,7 @@ while True:
             response_status = 0
         elif "revolution" in answer:
             print("The French Revolution is a very well known revolution, and it went from 1789 to 1799")
+            response_status = 0
         else:
             print("We don't have a suitable answer for that yet, we should soon! ")
             response_status = 0
